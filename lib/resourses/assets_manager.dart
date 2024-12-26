@@ -12,6 +12,7 @@ class PngAssets {
   static const String ahadethBackground = '$pngPath/ahadeth_bg.png';
   static const String sebhaBackground = '$pngPath/sebha_bg.png';
   static const String radioBackground = '$pngPath/radio_bg.png';
+  static const String detailsBackground = '$pngPath/details_bg.png';
   static const String quranIcon = '$pngPath/quran.png';
   static const String ahadethIcon = '$pngPath/ahadeth.png';
   static const String sebhaIcon = '$pngPath/sebha.png';

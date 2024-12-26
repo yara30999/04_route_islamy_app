@@ -3,6 +3,7 @@ import 'package:google_fonts/google_fonts.dart';
 import '../../../../models/sura_model.dart';
 import '../../../../resourses/assets_manager.dart';
 import '../../../../resourses/colors_manager.dart';
+import '../../../../resourses/routes_manager.dart';
 import 'sura_name_horizontal_item.dart';
 import 'sura_name_item.dart';
 
@@ -84,7 +85,8 @@ class _QuranTabState extends State<QuranTab> {
                 itemBuilder: (context, index) {
                   return InkWell(
                     onTap: () {
-                      //TODO navigate to sura details screen here
+                      Navigator.pushNamed(context, Routes.suraDetailsRoute,
+                          arguments: SuraModel.getSuraModel(index));
                     },
                     child: SuraNameItem(
                         model: SuraModel.searchResult.isNotEmpty
