@@ -65,6 +65,7 @@ class _HomeScreenState extends State<HomeScreen> {
             fit: BoxFit.cover),
       ),
       child: Scaffold(
+        resizeToAvoidBottomInset: false,
         body: Column(
           children: [
             Image.asset(PngAssets.onboardingHeader),
