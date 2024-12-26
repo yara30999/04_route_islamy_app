@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:introduction_screen/introduction_screen.dart';
+import '../../app/app_prefs.dart';
 import '../../resourses/assets_manager.dart';
 import '../../resourses/colors_manager.dart';
 import '../../resourses/routes_manager.dart';
@@ -41,7 +42,7 @@ class OnBoardingScreen extends StatelessWidget {
         style: Theme.of(context).textTheme.headlineMedium,
       ),
       onDone: () {
-        //TODO: save eligaibility here
+        AppPreferences.saveEligibility();
         Navigator.pushNamed(context, Routes.homeRoute);
       },
       pages: [
