@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:introduction_screen/introduction_screen.dart';
-import '../resourses/assets_manager.dart';
-import '../resourses/colors_manager.dart';
+import '../../resourses/assets_manager.dart';
+import '../../resourses/colors_manager.dart';
+import '../../resourses/routes_manager.dart';
 
 class OnBoardingScreen extends StatelessWidget {
   const OnBoardingScreen({super.key});
@@ -41,7 +42,7 @@ class OnBoardingScreen extends StatelessWidget {
       ),
       onDone: () {
         //TODO: save eligaibility here
-        //TODO: then navigate to the home page.
+        Navigator.pushNamed(context, Routes.homeRoute);
       },
       pages: [
         PageViewModel(

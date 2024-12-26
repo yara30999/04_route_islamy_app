@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import '../screens/onBoarding_screen.dart';
+import '../screens/01_onboarding/onboarding_screen.dart';
+import '../screens/02_home/home_screen.dart';
 
 class Routes {
   static const String onBoardingRoute = "/";
@@ -11,8 +12,8 @@ class RouteGenerator {
     switch (settings.name) {
       case Routes.onBoardingRoute:
         return MaterialPageRoute(builder: (_) => const OnBoardingScreen());
-      // case Routes.homeRoute:
-      //   return MaterialPageRoute(builder: (_) => const HomeScreen());
+      case Routes.homeRoute:
+        return MaterialPageRoute(builder: (_) => const HomeScreen());
       default:
         return unDefinedRoute();
     }
