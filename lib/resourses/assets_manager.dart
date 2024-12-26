@@ -10,6 +10,7 @@ class PngAssets {
   static const String onboarding5 = '$pngPath/onboarding5.png';
   static const String homeBackground = '$pngPath/home_bg.png';
   static const String ahadethBackground = '$pngPath/ahadeth_bg.png';
+  static const String hadethBackground = '$pngPath/hadeth_bg.png';
   static const String sebhaBackground = '$pngPath/sebha_bg.png';
   static const String radioBackground = '$pngPath/radio_bg.png';
   static const String detailsBackground = '$pngPath/details_bg.png';
