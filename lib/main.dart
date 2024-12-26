@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+import 'resourses/routes_manager.dart';
+import 'resourses/theme_manager.dart';
+
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
 
@@ -12,7 +15,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
+      theme: getLightTheme(),
+      themeMode: ThemeMode.light,
+      // TODO: ELIGIBILITY HERE
+      initialRoute: Routes.onBoardingRoute,
+      onGenerateRoute: RouteGenerator.getRoute,
     );
   }
 }

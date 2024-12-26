@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'colors_manager.dart';
 
-ThemeData getDarkTheme() {
+ThemeData getLightTheme() {
   return ThemeData(
     useMaterial3: true,
     brightness: Brightness.dark,
-    primaryColor: ColorsManager.primaryColor,
+    primaryColor: ColorsManager.beige,
     scaffoldBackgroundColor: Colors.transparent,
 
     //app bar theme.........................................
@@ -15,11 +15,11 @@ ThemeData getDarkTheme() {
       titleTextStyle: GoogleFonts.aBeeZee(
         fontWeight: FontWeight.bold,
         fontSize: 25,
-        color: ColorsManager.primaryColor,
+        color: ColorsManager.beige,
       ),
-      backgroundColor: ColorsManager.blackColor,
+      backgroundColor: ColorsManager.black,
       iconTheme: const IconThemeData(
-        color: ColorsManager.primaryColor,
+        color: ColorsManager.beige,
       ),
     ),
 
@@ -77,41 +77,41 @@ ThemeData getDarkTheme() {
       titleSmall: GoogleFonts.aBeeZee(
         fontWeight: FontWeight.bold,
         fontSize: 18,
-        color: ColorsManager.primaryColor,
+        color: ColorsManager.beige,
       ),
       titleMedium: GoogleFonts.aBeeZee(
         fontWeight: FontWeight.bold,
         fontSize: 22,
-        color: ColorsManager.primaryColor,
+        color: ColorsManager.beige,
       ),
       titleLarge: GoogleFonts.aBeeZee(
         fontWeight: FontWeight.bold,
         fontSize: 30,
-        color: ColorsManager.primaryColor,
+        color: ColorsManager.beige,
       ),
       headlineSmall: GoogleFonts.elMessiri(
         fontWeight: FontWeight.bold,
         fontSize: 18,
-        color: ColorsManager.primaryColor,
+        color: ColorsManager.beige,
       ),
       headlineMedium: GoogleFonts.elMessiri(
         fontWeight: FontWeight.bold,
         fontSize: 22,
-        color: ColorsManager.primaryColor,
+        color: ColorsManager.beige,
       ),
       headlineLarge: GoogleFonts.elMessiri(
         fontWeight: FontWeight.bold,
         fontSize: 30,
-        color: ColorsManager.primaryColor,
+        color: ColorsManager.beige,
       ),
     ),
 
     //bottom nav bar theme...........................................................
     bottomNavigationBarTheme: const BottomNavigationBarThemeData(
-      backgroundColor: ColorsManager.primaryColor,
+      backgroundColor: ColorsManager.beige,
       showUnselectedLabels: false,
       showSelectedLabels: true,
-      unselectedItemColor: ColorsManager.blackColor,
+      unselectedItemColor: ColorsManager.black,
       selectedItemColor: Colors.white,
       type: BottomNavigationBarType.fixed,
     ),
