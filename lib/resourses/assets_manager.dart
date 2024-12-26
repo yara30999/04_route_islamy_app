@@ -17,6 +17,8 @@ class PngAssets {
   static const String sebhaIcon = '$pngPath/sebha.png';
   static const String radioIcon = '$pngPath/ic_radio.png';
   static const String datesIcon = '$pngPath/dates.png';
+  static const String suraItem = '$pngPath/sura_item.png';
+  static const String suraNumber = '$pngPath/sura_number.png';
 }
 
 class SvgAssets {}
