@@ -21,6 +21,11 @@ class PngAssets {
   static const String datesIcon = '$pngPath/dates.png';
   static const String suraItem = '$pngPath/sura_item.png';
   static const String suraNumber = '$pngPath/sura_number.png';
+  static const String sebhaBody = '$pngPath/sebha_body.png';
+  static const String sebhaTail = '$pngPath/sebha_tail.png';
 }
 
-class SvgAssets {}
+class SvgAssets {
+  static const String sebhaBody = '$svgPath/sebha_body.svg';
+  static const String sebhaTail = '$svgPath/sebha_tail.svg';
+}

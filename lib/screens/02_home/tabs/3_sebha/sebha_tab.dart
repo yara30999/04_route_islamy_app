@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
+import '../../../../resourses/assets_manager.dart';
+import '../../../../resourses/colors_manager.dart';
+import 'rotating_sebha.dart';
 
 class SebhaTab extends StatelessWidget {
   const SebhaTab({super.key});
@@ -8,15 +10,20 @@ class SebhaTab extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
+        mainAxisAlignment: MainAxisAlignment.start,
         children: [
+          SizedBox(
+            height: 30,
+          ),
           Text(
-            "Sebha Tab",
-            style: GoogleFonts.elMessiri(
-              fontSize: 22,
-              color: Colors.white,
-            ),
-          )
+            "سَبِّحِ اسْمَ رَبِّكَ الأعلى ",
+            style: Theme.of(context)
+                .textTheme
+                .headlineLarge!
+                .copyWith(color: ColorsManager.white),
+          ),
+          Image.asset(PngAssets.sebhaTail),
+          RotatingSebha(),
         ],
       ),
     );
