@@ -2,15 +2,31 @@
 
 A new Flutter project.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## 📸 Screens
 
-A few resources to get you started if this is your first Flutter project:
+<div style="display: flex; gap: 10px;">
+    <img src="readme/splash.jpg" alt="splash Screen" width="200">
+    <img src="readme/onboarding1.jpg"alt="home" width="200">
+    <img src="readme/onboarding2.jpg" alt="bottom sheet" width="200">
+    <img src="readme/onboarding3.jpg" alt="bottom sheet" width="200">
+</div>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+<div style="display: flex; gap: 10px;">
+    <img src="readme/onboarding4.jpg" alt="home" width="200">
+    <img src="readme/onboarding5.jpg" alt="home" width="200">
+    <img src="readme/home1.jpg" alt="home" width="200">
+    <img src="readme/home2.jpg" alt="home" width="200">
+</div>
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<div style="display: flex; gap: 10px;">
+    <img src="readme/home3.jpg" alt="home" width="200">
+    <img src="readme/home4.jpg" alt="home" width="200">
+    <img src="readme/home5.jpg" alt="home" width="200">
+    <img src="readme/home6.jpg" alt="home" width="200">
+</div>
+<div style="display: flex; gap: 10px;">
+    <img src="readme/home7.jpg" alt="home" width="200">
+    <img src="readme/home8.jpg" alt="home" width="200">
+    <img src="readme/home9.jpg" alt="home" width="200">
+</div>
