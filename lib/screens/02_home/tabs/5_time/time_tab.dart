@@ -1,22 +1,34 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
+import '../../../../resourses/colors_manager.dart';
+import 'widgets/azkar_grid_view.dart';
+import 'widgets/prayers_time.dart';
 
 class TimeTab extends StatelessWidget {
   const TimeTab({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Center(
+    return Padding(
+      padding: const EdgeInsets.symmetric(
+        horizontal: 20,
+        vertical: 5,
+      ),
       child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          PrayersTime(),
+          SizedBox(height: 20.0),
           Text(
-            "Time Tab",
-            style: GoogleFonts.elMessiri(
-              fontSize: 22,
-              color: Colors.white,
-            ),
-          )
+            'Azkar',
+            style: Theme.of(context)
+                .textTheme
+                .titleSmall!
+                .copyWith(color: ColorsManager.white),
+          ),
+          SizedBox(height: 20.0),
+          Expanded(
+            child: AzkarGridView(),
+          ),
         ],
       ),
     );

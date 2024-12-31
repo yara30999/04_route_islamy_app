@@ -25,6 +25,15 @@ class PngAssets {
   static const String sebhaTail = '$pngPath/sebha_tail.png';
   static const String soundWave = '$pngPath/sound_wave.png';
   static const String mosque = '$pngPath/mosque.png';
+  static const String prayersPaint = '$pngPath/prayers_paint.png';
+  static const String illustration = '$pngPath/Illustration.png';
+  static const String illustration1 = '$pngPath/Illustration_1.png';
+  static const String illustration2 = '$pngPath/Illustration_2.png';
+  static const String illustration3 = '$pngPath/Illustration_3.png';
+  static const String illustration4 = '$pngPath/Illustration_4.png';
+  static const String illustration5 = '$pngPath/Illustration_5.png';
+  static const String illustration6 = '$pngPath/Illustration_6.png';
+  static const String illustration7 = '$pngPath/Illustration_7.png';
 }
 
 class SvgAssets {
@@ -36,4 +45,5 @@ class SvgAssets {
   static const String loud = '$svgPath/loud.svg';
   static const String soundWave = '$svgPath/sound_wave.svg';
   static const String mosque = '$svgPath/mosque.svg';
+  static const String prayersPaint = '$svgPath/prayers_paint.svg';
 }
